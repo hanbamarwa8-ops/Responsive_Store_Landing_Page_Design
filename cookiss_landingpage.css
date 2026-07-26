@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Marcellus&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #fefbf4;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    color: #000000ed;
+
+
+
+
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 14px 45px;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.header .logo img {
+    width: 110px;
+    height: auto;
+    justify-self: start;
+
+
+
+}
+
+.nav {
+    justify-self: ;
+
+
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+
+
+}
+
+nav a {
+    font-family: 'Marcellus', serif;
+    color: #000;
+    text-decoration: none;
+    font-size: 0.78rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.nav ul li {
+    margin: 0;
+}
+
+.header button {
+    justify-self: end;
+    font-family: 'Marcellus', serif;
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    padding: 8px 20px;
+    background: transparent;
+    border: 1px solid #000000ed;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.header button:hover {
+    background: #000000ed;
+    color: #fefbf4;
+}
+
+ .first-sec {
+    width: 100%;
+    display: block;
+    line-height: 0; 
+    
+
+}
+.first-sec img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
